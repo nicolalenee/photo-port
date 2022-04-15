@@ -2,15 +2,18 @@ import React, { useEffect } from 'react';
 import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function Nav(props) {
-  useEffect(() => {
-    document.title = capitalizeFirstLetter(currentCategory.name);
-  }, [currentCategory]);
+  //update page title in the browser tab to reflect which tab the user has clicked on
+
+
   const {
     categories =[],
     setCurrentCategory,
     currentCategory
 
   } = props;
+  useEffect(() => {
+    document.title = capitalizeFirstLetter(currentCategory.name);
+  }, [currentCategory]);
 
   function categorySelected(name) {
     console.log(`${name} clicked`)
