@@ -23,5 +23,5 @@ Component creation was tested using jest. Testing was used for the purpose of en
 To test components, run the `npm run test` command.  
 
 # Questions
-[Repository](https://github.com/nicolalenee/photo-port)
+[Repository](https://github.com/nicolalenee/photo-port)  
 [Deployment](https://photo-port.vercel.app/)
